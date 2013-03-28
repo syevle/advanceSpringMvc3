@@ -3,7 +3,7 @@ package com.city.util;
  * @author santosh yevle
  */
 public class Constant {
-	public static final String ROOTPATH = "/pune";
+	public static final String ROOTPATH = "/advanceSpringMvc3";
 	public static final String LIST = "/list";
 	public static final String ADD = "/add";
 	public static final String UPDATE = "/update";

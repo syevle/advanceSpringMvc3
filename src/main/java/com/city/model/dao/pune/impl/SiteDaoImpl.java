@@ -10,7 +10,7 @@ import com.city.persistence.impl.GenericHibernateDaoImpl;
  * @author santosh yevle
  */
 @Service
-public abstract class SiteDaoImpl extends GenericHibernateDaoImpl<Site, Long> implements SiteDao  {
+public class SiteDaoImpl extends GenericHibernateDaoImpl<Site, Long> implements SiteDao  {
 	
 	SiteDaoImpl() {
 		super(Site.class);
